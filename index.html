@@ -29,10 +29,29 @@
       accusantium mollitia exercitationem praesentium explicabo ab,
       consectetur quo neque dolorem. Quae fugiat iste consequuntur.</p>
     <h2 id="contacto">Contacto</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Quae nihil, sint unde recusandae odio, veritatis perspiciatis
-      accusantium mollitia exercitationem praesentium explicabo ab,
-      consectetur quo neque dolorem. Quae fugiat iste consequuntur.</p>
+    <form method="get" action="index.html">
+      <label>Su nombre
+        <input required type="text" name="nombre" placeholder="ej:Juan"/>
+      </label>
+      <label>Su correo electrónico
+        <input required type="email" name="correo" placeholder="ej:juan20@gmail.com" autocomplete="email"/>
+      </label>
+      <label>Numero Telefono
+        <input required type="number" name="numero-celular" placeholder="2657-xxxxx-xxx">
+      </label>
+      <label>Deje aqui su mensaje
+        <textarea required name="mensaje" id="" placeholder="Texto aqui"></textarea>
+      </label>
+      <input type="submit" value="Enviar">
+    </form>
+<!-- 
+Un simple ejemplo de un label con el atributo for 
+ <label for="Name">Click me</label>
+<input type="text" id="Name" name="Name" />
+
+ Aun mas simple 
+<label>Click me <input type="text" id="Name" name="Name" /></label>
+-->
     <h2 id="preguntas-frecuentes">Preguntas Frecuentes</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Quae nihil, sint unde recusandae odio, veritatis perspiciatis
